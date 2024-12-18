@@ -1,4 +1,31 @@
-./00 Syallbus
-./20 Demo Class
+# Ignore specific directories
+00 Syallbus/
+20 Demo Class/
 
 
+# Ignore Jupyter notebook dumps and checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code workspace settings and extensions
+.vscode/
+.vscode/**
+
+# Ignore VS Code history and backups
+.history/
+workspaceStorage/
+
+# Ignore standard Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore environment and dependency folders
+env/
+venv/
+*.egg-info/
+dist/
+build/
