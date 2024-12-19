@@ -1,6 +1,7 @@
 # Ignore specific directories
 00 Syallbus/
 20 Demo Class/
+Temp files/
 
 
 # Ignore Jupyter notebook dumps and checkpoints
